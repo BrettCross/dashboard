@@ -18,6 +18,25 @@
 .header {
   grid-area: hd;
   border: 3px solid orange;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  grid-template-columns: 5fr 4fr;
+}
+
+.search {
+  border: 1px solid black;
+}
+
+.profile {
+  border: 1px solid black;
+}
+
+.greeting {
+  border: 1px solid black;
+}
+
+.actions {
+  border: 1px solid black;
 }
 
 .sidebar {
