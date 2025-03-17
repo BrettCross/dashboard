@@ -47,4 +47,25 @@
 .content {
   grid-area: con;
   border: 3px solid purple;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: 
+    "pro ann"
+    "pro tre";
+}
+
+.projects {
+  grid-area: pro;
+  border: 1px solid black;
+}
+
+.announcements {
+  grid-area: ann;
+  border: 1px solid black;
+}
+
+.trending {
+  grid-area: tre;
+  border: 1px solid black;
 }
