@@ -42,6 +42,34 @@
 .sidebar {
   grid-area: sd;
   border: 3px solid green;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.title {
+  margin-bottom: 2rem;
+  
+}
+
+ul {
+  list-style: none;
+}
+
+.nav {
+  margin-bottom: 1rem;
+}
+
+.nav-items {
+  margin: 1rem 0;
+}
+
+.options {
+  margin-bottom: 1rem;
+}
+
+.options-items {
+  margin: 1rem 0;
 }
 
 .content {
