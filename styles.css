@@ -85,19 +85,25 @@ ul {
 .projects {
   grid-area: pro;
   border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3rem 1fr 1fr;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.projects > .title {
+  grid-column: 1 / -1
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
   border-left-style: solid;
   border-left-width: 8px;
   border-left-color: orange;
   padding: 0.5rem;
-  width: 21rem;
-  height: 10rem;
 }
 
 .announcements {
