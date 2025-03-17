@@ -89,9 +89,9 @@ ul {
   border: 1px solid black;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 3rem 1fr 1fr;
-  gap: 0.5rem;
-  padding: 0.5rem;
+  grid-template-rows: 1.5rem 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
 }
 
 .projects > .title {
@@ -106,6 +106,7 @@ ul {
   border-left-width: 8px;
   border-left-color: orange;
   padding: 0.5rem;
+  border-radius: 8px;
 }
 
 .announcements {
