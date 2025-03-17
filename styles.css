@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+  grid-template-columns: 1fr 4fr;
+  grid-template-areas: 
+    "sd hd"
+    "sd con";
+  border: 3px solid red;
+}
+
+.header {
+  grid-area: hd;
+  border: 3px solid orange;
+}
+
+.sidebar {
+  grid-area: sd;
+  border: 3px solid green;
+}
+
+.content {
+  grid-area: con;
+  border: 3px solid purple;
+}
