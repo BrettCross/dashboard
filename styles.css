@@ -112,9 +112,25 @@ ul {
 .announcements {
   grid-area: ann;
   border: 1px solid black;
+  display: grid;
+  grid-template-rows: 2rem auto;
+  gap: 0.5rem;
+  padding: 0.5rem 1.5rem 0.5rem 1rem;
+}
+
+.feed {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 0.5rem;
 }
 
 .trending {
   grid-area: tre;
   border: 1px solid black;
+  display: grid;
+  grid-template-rows: 2rem auto;
+  gap: 0.5rem;
+  padding: 0.5rem 1.5rem 0.5rem 1rem;
 }
