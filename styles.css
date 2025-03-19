@@ -25,6 +25,24 @@
 
 .search {
   border: 1px solid black;
+  display: flex;
+  padding: 1rem 3rem;
+}
+
+.search > button {
+  margin-right: 1rem;
+  line-height: 1rem;
+  padding: 0.25rem;
+  border-radius: 14px;
+  font-weight: bold;
+}
+
+.search > input {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .profile {
@@ -37,6 +55,19 @@
 
 .actions {
   border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.action-btn {
+  padding: 0.8rem;
+  background-color: #1992d4;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 20px;
+  width: 6.25rem;
 }
 
 .sidebar {
@@ -90,9 +121,10 @@ ul {
   grid-area: pro;
   border: 1px solid black;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows: 1.5rem 1fr 1fr;
-  gap: 1rem;
+  gap: 2rem;
   padding: 1rem;
 }
 
@@ -109,6 +141,7 @@ ul {
   border-left-color: orange;
   padding: 0.5rem;
   border-radius: 8px;
+
 }
 
 .announcements {
