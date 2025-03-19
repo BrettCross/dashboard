@@ -26,12 +26,12 @@
 .search {
   border: 1px solid black;
   display: flex;
-  padding: 1rem 3rem;
+  align-items: center;
+  padding: 1rem 1rem 1rem 3rem;
 }
 
 .search > button {
   margin-right: 1rem;
-  line-height: 1rem;
   padding: 0.25rem;
   border-radius: 14px;
   font-weight: bold;
@@ -39,10 +39,11 @@
 
 .search > input {
   width: 100%;
-  font-size: 1rem;
   padding: 0.25rem 0.75rem;
-  border: 1px solid black;
-  border-radius: 10px;
+  line-height: 1.3rem;
+  border: none;
+  background-color: #e2e8f0;
+  border-radius: 20px;
 }
 
 .profile {
