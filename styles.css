@@ -51,6 +51,20 @@
 
 .greeting {
   border: 1px solid black;
+  display: flex;
+  padding-left: 3rem;
+  align-items: center;
+}
+
+.img {
+  background-color: #facc15;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.greeting-text {
+  padding-left: 1.5rem;
 }
 
 .actions {
@@ -138,7 +152,7 @@ ul {
   background-color: #fff;
   border-left-style: solid;
   border-left-width: 8px;
-  border-left-color: orange;
+  border-left-color: #efb52d;
   padding: 0.5rem;
   border-radius: 8px;
 
