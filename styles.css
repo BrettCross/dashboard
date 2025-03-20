@@ -59,6 +59,7 @@
   width: 25px;
   height: 25px;
   border: 2px solid black;
+  margin-right: 2rem;
 }
 
 .profile-img {
@@ -66,7 +67,10 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  margin: 0 2rem;
+}
+
+.user-profile {
+  margin-left: 2rem;
 }
 
 .greeting {
@@ -76,7 +80,7 @@
   align-items: center;
 }
 
-.img {
+.profile-img-big {
   background-color: #facc15;
   width: 75px;
   height: 75px;
@@ -143,9 +147,8 @@ ul {
   grid-area: con;
   border: 3px solid purple;
   display: grid;
-  /* grid-template-rows: 1fr 1fr; */
+  grid-template-rows: 1fr 1fr;
   /* grid-template-columns: 3fr 1fr; */
-  grid-template-rows: max-content;
   grid-template-columns: 1fr 300px;
   grid-template-areas: 
     "pro ann"
@@ -194,13 +197,18 @@ ul {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   border-radius: 8px;
   padding: 1rem;
 }
 
 .a-feed-card {
   width: 100%;
+  margin: 1rem 0;
+}
+
+.a-feed-card > h4 {
+  margin-bottom: 0.2rem;
 }
 
 .feed > .break {
@@ -215,4 +223,17 @@ ul {
   grid-template-rows: 2rem 1fr;
   gap: 1.5rem;
   padding: 1rem 1.5rem 0.5rem 1rem;
+}
+
+.t-feed-card {
+  display: flex;
+  padding: 1rem 0;
+  border: 1px solid red;
+}
+
+.info-container {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
 }
