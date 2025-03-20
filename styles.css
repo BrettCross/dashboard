@@ -194,8 +194,18 @@ ul {
   background-color: #fff;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   border-radius: 8px;
-  padding: 0.5rem;
+  padding: 1rem;
+}
+
+.a-feed-card {
+  width: 100%;
+}
+
+.feed > .break {
+  border: 1px solid #ddd;
+  margin: 0.5rem 0; 
 }
 
 .trending {
