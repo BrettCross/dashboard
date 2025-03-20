@@ -7,26 +7,21 @@
 .container {
   height: 100vh;
   display: grid;
-  /* grid-template-rows: 1fr 4fr; */
   grid-template-rows: 150px 1fr;
-  /* grid-template-columns: 1fr 4fr; */
   grid-template-columns: 250px 1fr;
   grid-template-areas: 
     "sd hd"
     "sd con";
-  border: 3px solid red;
 }
 
 .header {
   grid-area: hd;
-  border: 3px solid orange;
   display: grid;
   grid-template-rows: 2fr 3fr;
   grid-template-columns: 5fr 3fr;
 }
 
 .search {
-  border: 1px solid black;
   display: flex;
   align-items: center;
   padding: 1rem 1rem 1rem 3rem;
@@ -49,7 +44,6 @@
 }
 
 .profile {
-  border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,8 +52,8 @@
 .notification-icon {
   width: 25px;
   height: 25px;
-  border: 2px solid black;
   margin-right: 2rem;
+  background-color: #000;
 }
 
 .profile-img {
@@ -74,7 +68,6 @@
 }
 
 .greeting {
-  border: 1px solid black;
   display: flex;
   padding-left: 3rem;
   align-items: center;
@@ -92,7 +85,6 @@
 }
 
 .actions {
-  border: 1px solid black;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -110,7 +102,6 @@
 
 .sidebar {
   grid-area: sd;
-  border: 3px solid green;
   display: flex;
   flex-direction: column;
   padding: 1rem;
@@ -145,10 +136,8 @@ ul {
 
 .content {
   grid-area: con;
-  border: 3px solid purple;
   display: grid;
   grid-template-rows: 1fr 1fr;
-  /* grid-template-columns: 3fr 1fr; */
   grid-template-columns: 1fr 300px;
   grid-template-areas: 
     "pro ann"
@@ -158,11 +147,8 @@ ul {
 
 .projects {
   grid-area: pro;
-  border: 1px solid black;
   display: grid;
-  /* grid-template-columns: 1fr 1fr; */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  /* grid-template-rows: 1.5rem 1fr 1fr; */
   grid-template-rows: 1.5rem repeat(auto-fit, minmax(100px, 1fr));
   gap: 2rem;
   padding: 1rem;
@@ -186,7 +172,6 @@ ul {
 
 .announcements {
   grid-area: ann;
-  border: 1px solid black;
   display: grid;
   grid-template-rows: 2rem 1fr;
   gap: 1.5rem;
@@ -218,7 +203,6 @@ ul {
 
 .trending {
   grid-area: tre;
-  border: 1px solid black;
   display: grid;
   grid-template-rows: 2rem 1fr;
   gap: 1.5rem;
@@ -228,7 +212,6 @@ ul {
 .t-feed-card {
   display: flex;
   padding: 1rem 0;
-  border: 1px solid red;
 }
 
 .info-container {
